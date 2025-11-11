@@ -12,14 +12,14 @@ Student * students;
 int currentStudents;
 
 PUBLIC:
- Course();
+ Course(string CourseCode, string CourseName, int maxStudents, Student &students,int currentStudents);
 ~Course();
 void addStudent(const Student &s);
 void displayCourseInfo();
 #endif
 #include <COURSE_H>
 class Course {
-Course :: Course {
+Course :: Course() {
   this-> CourseCode= CourseCode;
   this->CourseName= CourseName;
   this->maxStudents= maxStudents;
