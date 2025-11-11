@@ -8,33 +8,25 @@
 
 using namespace std;
 int main (){
-Person p = new Person ("Dr Lina Khaled"
-p.display();
 
-Student s = new Student (2, "Informatics")
-s.display()
 
+Student s = new Student (2, "Informatics");
+s.display();
 
 
 
 
-Instructor i= new Instructor("Computer Science", 5)
+
+Instructor i= new Instructor("Computer Science", 5);
 i.display();
 
 
 
 
 
-Course k= new Course ("CS101", "Intro to Programming", 3 ,  
+Course k= new Course ("CS101", "Intro to Programming", 3 ,1); 
+k.addStudent
 
 
 
 
-
-
-// ==================== Main Function ====================
-int main() {
-   
-    
-    return 0;
-}
