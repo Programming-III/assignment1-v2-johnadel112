@@ -7,18 +7,12 @@
 
 
 using namespace std;
+int main (){
+Person p;
+p.display();
 
-// ==================== Person Class Implementation =========================
-
-
-
-
-
-
-
-
-// ==================== Student Class Implementation ====================
-
+Student s;
+s.display()
 
 
 
