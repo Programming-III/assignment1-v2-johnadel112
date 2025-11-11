@@ -11,6 +11,7 @@ PUBLIC:
 void Student();
 void Display();
 #endif
+#include "STUDENT_H"
 class Student: public Person{
 void Student:: Student(){
 this -> yearLevel= yearLevel;
