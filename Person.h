@@ -15,6 +15,7 @@ int getID();
 void Person();
 void displayPerson();
 #endif
+#include "PERSON_H"
 class Person{
 void Person:: Person(){
   this-> name= name;
