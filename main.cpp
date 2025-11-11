@@ -11,22 +11,21 @@ int main (){
 Person p = new Person ("Dr Lina Khaled"
 p.display();
 
-Student s;
+Student s = new Student (2, "Informatics")
 s.display()
 
 
 
 
 
-Instructor i= new Instructor(
+Instructor i= new Instructor("Computer Science", 5)
+i.display();
 
 
 
 
 
-// ==================== Course Class Implementation ====================
-
-
+Course k= new Course ("CS101", "Intro to Programming",
 
 
 
