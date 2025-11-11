@@ -8,7 +8,7 @@
 
 using namespace std;
 int main (){
-Person p;
+Person p = new Person ("Dr Lina Khaled"
 p.display();
 
 Student s;
@@ -18,8 +18,7 @@ s.display()
 
 
 
-// ==================== Instructor Class Implementation ====================
-
+Instructor i= new Instructor(
 
 
 
