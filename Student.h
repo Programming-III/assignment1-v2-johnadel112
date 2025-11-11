@@ -12,11 +12,11 @@ void Student();
 void Display();
 #endif
 class Student: public Person{
-void Student(){
+void Student:: Student(){
 this -> yearLevel= yearLevel;
   this-> major= major;
 }
-void display(){
+void Student::display(){
 cout<< "Year:" << yearLevel;
 cout << "Major:"<< major;
   
