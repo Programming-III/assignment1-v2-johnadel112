@@ -16,22 +16,22 @@ void Person();
 void displayPerson();
 #endif
 class Person{
-void Person(){
+void Person:: Person(){
   this-> name= name;
   this-> id= id;}
 
-string getname(){
+string Person:: getname(){
 return name;
 }
-int getID(){
+int Person:: getID(){
   return id;}
-void setname(){
+void Person:: setname(){
   this-> name= name;
 }
-void setID(){
+void Person:: setID(){
 this->id=id;
 }
-void displayPerson(){
+void Person:: displayPerson(){
 cout<< "Name:"<< name;
 cout << "ID:"<< id;
 }
