@@ -25,7 +25,7 @@ i.display();
 
 
 
-Course k= new Course ("CS101", "Intro to Programming",
+Course k= new Course ("CS101", "Intro to Programming", 3 ,  
 
 
 
