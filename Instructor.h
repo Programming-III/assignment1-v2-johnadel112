@@ -7,7 +7,7 @@ PRIVATE:
 string department;
 int experienceYears;
 Public:
-void Instructor();
+void Instructor(string department, int experienceYears);
 void display();
 #endif
 #include "INSTRUCTOR_H"
