@@ -12,7 +12,7 @@ Student * students;
 int currentStudents;
 
 PUBLIC:
- Course(string CourseCode, string CourseName, int maxStudents, Student &students,int currentStudents);
+ Course(string CourseCode, string CourseName, int maxStudents, int currentStudents);
 ~Course();
 void addStudent(const Student &s);
 void displayCourseInfo();
