@@ -25,7 +25,8 @@ i.display();
 
 
 Course k= new Course ("CS101", "Intro to Programming", 3 ,1); 
-k.addStudent
+k.addStudent(s);
+k.displayCourseInfo();
 
 
 
