@@ -12,7 +12,7 @@ string getname();
 void setname();
 void setID();
 int getID();
-void Person();
+void Person(string name, int id);
 void displayPerson();
 #endif
 #include "PERSON_H"
