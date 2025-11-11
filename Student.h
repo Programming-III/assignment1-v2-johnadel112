@@ -8,7 +8,7 @@ int yearLevel;
 string major;
 
 PUBLIC:
-void Student();
+void Student(int yearLevel, string major);
 void Display();
 #endif
 #include "STUDENT_H"
