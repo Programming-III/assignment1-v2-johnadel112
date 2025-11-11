@@ -3,7 +3,8 @@
 
 #include "Person.h"
 using namespace std;
-//#write Instructor class here
+class Instructor: public Person {
+PRIVATE
 
 
 
